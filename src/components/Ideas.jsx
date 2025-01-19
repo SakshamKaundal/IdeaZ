@@ -1,10 +1,7 @@
 
 const Ideas = (props)=>{
 
-    const deleteIdea = (id) => {
-        props.setidea((prev) => prev.filter((idea) => idea.id !== id));
-      };
-    console.log(props.ideas)
+    
       return(
         <div className="ideas-list">
         {props.ideas.map((idea) => (

@@ -1,9 +1,17 @@
 .container {
   max-width: 800px;
-  margin: 0 auto;
+  margin-top: 4rem;
+  margin-inline: auto;
   padding: 20px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Courier New', Courier, monospace;
 }
+.noto {
+  font-family: "Noto Sans Newa", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bolder;
+}
+
 
 .idea-form {
   background-color: #ffffff;

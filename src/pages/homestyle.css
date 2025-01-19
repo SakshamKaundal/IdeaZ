@@ -1,0 +1,22 @@
+.container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playwrite IN", serif;
+    max-width: 100%
+}
+
+.header {
+    font-size: 4.5em;
+}
+
+.big-button {
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: #e22386e1; /* Dark pink */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-family:"Playwrite IN", serif;
+}
